@@ -103,7 +103,13 @@ st.markdown('''
 # ---------------------------------------------------------
 # 2. DATA INGESTION
 # ---------------------------------------------------------
-SUMMARY_CSV = r"D:\NGCP\RTD_5min_Daily_Summary.csv"
+
+#FROM
+#SUMMARY_CSV = r"D:\NGCP\RTD_5min_Daily_Summary.csv"
+
+#CHANGE TO:
+SUMMARY_CSV = "RTD_5min_Daily_Summary.csv"
+
 
 @st.cache_data
 def load_summary_data(csv_path):
