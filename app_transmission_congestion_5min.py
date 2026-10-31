@@ -104,8 +104,15 @@ st.markdown("""
 # ---------------------------------------------------------
 # 2. DATA INGESTION
 # ---------------------------------------------------------
-SUMMARY_CSV = "D:/NGCP/Transmission_Congestion_5min_Daily_Summary.csv"
-RESOURCE_CSV = "D:/NGCP/Subgrid_Resource_Curtailment_Summary.csv"
+
+#FROM
+#SUMMARY_CSV = "D:/NGCP/Transmission_Congestion_5min_Daily_Summary.csv"
+#RESOURCE_CSV = "D:/NGCP/Subgrid_Resource_Curtailment_Summary.csv"
+
+#CHANGE TO:
+SUMMARY_CSV = "Transmission_Congestion_5min_Daily_Summary.csv"
+RESOURCE_CSV = "Subgrid_Resource_Curtailment_Summary.csv"
+
 
 @st.cache_data
 def load_data(path):
