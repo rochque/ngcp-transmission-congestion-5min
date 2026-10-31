@@ -1,0 +1,13 @@
+# Ignore all raw data folders and zip archives
+*.zip
+5_MINUTE_MARKET_DATA/
+Additional IEMOP (same as RTD)/
+HOURLY_MARKET_DATA/
+System Marginal Prices (SMP)/
+
+# Ignore ALL large CSV summary files (since they exceed GitHub's 100MB limit)
+*.csv
+*.xlsx
+*.parquet
+
+# Keep Python setup files
